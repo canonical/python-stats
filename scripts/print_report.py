@@ -3,7 +3,7 @@
 
 The report's figures live in web/report.js and nowhere else. This script prints
 the dashboard's report view for one month, so the archived PDF is exactly what a
-reader sees at index.html?month=YYYY-MM.
+a reader sees at index.html?month=YYYY-MM for the Python backports dashboard.
 
 What it does:
 

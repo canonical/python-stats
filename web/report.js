@@ -1,4 +1,4 @@
-/* report.js - monthly executive report computation for dotnet-stats.
+/* report.js - monthly executive report computation for python-stats.
  *
  * Pure, side-effect free and DOM free (same rules as stats.js). This module is
  * the SINGLE implementation of the report's arithmetic: the on-screen report
@@ -24,8 +24,8 @@
   const LTS_SERIES = { jammy: "22.04 LTS", noble: "24.04 LTS" };
 
   /* Package types counted as "runtime only" (deployment targets) when deriving
-   * the SDK:runtime developer-intent ratio. */
-  const RUNTIME_TYPES = ["runtime", "aspnetcore-runtime"];
+   * the dev:runtime developer-intent ratio. */
+  const RUNTIME_TYPES = ["runtime", "minimal", "stdlib", "nopie"];
 
   /* Coverage thresholds driving the report status gate. */
   const COVERAGE_OK = 95;
@@ -323,32 +323,32 @@
   // ----------------------------------------------------------------------- //
 
   /**
-   * SDK downloads divided by runtime-only downloads, per month. A proxy for
-   * "developer machines / build agents" versus "deployment targets" — not a
+   * Dev package downloads divided by runtime-only downloads, per month. A proxy
+   * for "developer machines / build agents" versus "deployment targets" — not a
    * headcount of any kind.
    */
   function devIntentRatio(typeDim, window) {
-    const sdk = rowFor(typeDim, "sdk");
+    const dev = rowFor(typeDim, "dev");
     const runtimeRows = typeDim.rows.filter((r) => RUNTIME_TYPES.indexOf(r.key) !== -1);
-    const sdkTotals = window.map((m, i) => (sdk ? sdk.totals[i] : 0));
+    const devTotals = window.map((m, i) => (dev ? dev.totals[i] : 0));
     const runtimeTotals = window.map((m, i) =>
       runtimeRows.reduce((acc, r) => acc + r.totals[i], 0)
     );
     const ratio = window.map((m, i) =>
-      runtimeTotals[i] ? sdkTotals[i] / runtimeTotals[i] : null
+      runtimeTotals[i] ? devTotals[i] / runtimeTotals[i] : null
     );
     const runtime = shareOfKeys(typeDim, RUNTIME_TYPES);
-    const now = runtime.total ? (sdk ? sdk.total : 0) / runtime.total : null;
+    const now = runtime.total ? (dev ? dev.total : 0) / runtime.total : null;
     const before = runtime.prevTotal
-      ? (sdk ? sdk.prevTotal : 0) / runtime.prevTotal
+      ? (dev ? dev.prevTotal : 0) / runtime.prevTotal
       : null;
     return {
       months: window.slice(),
-      sdkTotals: sdkTotals,
+      devTotals: devTotals,
       runtimeTotals: runtimeTotals,
       ratio: ratio,
-      sdkTotal: sdk ? sdk.total : 0,
-      sdkMomPct: sdk ? sdk.momPct : null,
+      devTotal: dev ? dev.total : 0,
+      devMomPct: dev ? dev.momPct : null,
       runtimeTotal: runtime.total,
       ratioNow: now,
       ratioPrev: before,
@@ -601,8 +601,8 @@
       origins: originDim,
       devIntent: devIntent,
       northStar: {
-        sdkTotal: devIntent.sdkTotal,
-        sdkMomPct: devIntent.sdkMomPct,
+        devTotal: devIntent.devTotal,
+        devMomPct: devIntent.devMomPct,
         newestVersion: newest ? newest.key : null,
         newestSharePct: newest ? newest.sharePct : null,
         newestShareDeltaPp: newest ? newest.shareDeltaPp : null,
@@ -787,7 +787,7 @@
           text:
             ns.leadingVersion + " remains the most downloaded release at " +
             ns.leadingSharePct.toFixed(1) + "% of the month, across " +
-            ns.activeVersionCount + " active .NET versions.",
+            ns.activeVersionCount + " active Python versions.",
         };
       },
     },
@@ -802,12 +802,12 @@
         // Phrase the ratio in whichever direction reads correctly.
         const level =
           di.ratioNow >= 1
-            ? "SDK downloads outnumber runtime-only downloads " +
+            ? "Dev package downloads outnumber runtime-only downloads " +
               di.ratioNow.toFixed(2) + ":1"
             : "Every runtime-only download came with " + di.ratioNow.toFixed(2) +
-              " SDK downloads";
+              " dev package downloads";
         const detail =
-          " (" + n0(di.sdkTotal) + " SDK vs " + n0(di.runtimeTotal) + " runtime)";
+          " (" + n0(di.devTotal) + " dev vs " + n0(di.runtimeTotal) + " runtime)";
         if (di.ratioDeltaPct == null || Math.abs(di.ratioDeltaPct) < 10) {
           return {
             tone: "neutral",
@@ -934,8 +934,8 @@
   // ----------------------------------------------------------------------- //
 
   const LIMITATIONS = [
-    "Figures count package downloads recorded by Launchpad for the dotnet/backports PPA only.",
-    "The primary Ubuntu archive publishes no download telemetry, so packages installed from it are not represented here. This report is a directional indicator, not total .NET usage on Ubuntu.",
+    "Figures count package downloads recorded by Launchpad for the canonical-python-maintainers/python-backports PPA only.",
+    "The primary Ubuntu archive publishes no download telemetry, so packages installed from it are not represented here. This report is a directional indicator, not total Python usage on Ubuntu.",
     "Downloads are not users. CI/CD pipelines, container image builds, mirrors and repeated installations all inflate counts, and one developer may generate many downloads.",
     "Counts are deduplicated per publication and day, keeping the maximum value reported by Launchpad; recent days may still rise as Launchpad reporting settles.",
     "Debug-symbol packages are excluded from every figure in this report.",

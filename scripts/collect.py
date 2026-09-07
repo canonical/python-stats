@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Collect .NET package download counts from Launchpad.
+"""Collect Python backports package download counts from Launchpad.
 
 Gathers download-count statistics for a configured set of source packages from
-the dotnet team's backports PPA (origin "backports-ppa").
+the Canonical Python maintainers' python-backports PPA (origin "backports-ppa").
 
 Only the PPA is queried. The primary Ubuntu archive is intentionally not
 collected: Launchpad exposes no per-package download counts for it
@@ -44,7 +44,7 @@ from launchpadlib.launchpad import Launchpad
 # --------------------------------------------------------------------------- #
 
 CACHE_DIR = "~/.cache/launchpadlib"
-APPLICATION_NAME = "dotnet-stats-collector"
+APPLICATION_NAME = "python-stats-collector"
 LAUNCHPAD_INSTANCE = "production"
 
 ORIGIN_PPA = "backports-ppa"
@@ -452,7 +452,7 @@ def collect_ppa(
     workers: int,
 ) -> list[dict]:
     """Collect download counts for tracked source packages from the PPA."""
-    log("Collecting from backports PPA ...")
+    log("Collecting from python-backports PPA ...")
     binary_names: dict[str, set[str]] = defaultdict(set)
     pool = FetchPool(start, end, limiter, workers)
 

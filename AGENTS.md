@@ -4,8 +4,8 @@ Guidance for AI coding agents working in this repository.
 
 ## What this project is
 
-A static web dashboard showing download statistics for .NET packages on Ubuntu,
-sourced from the Launchpad API. It has four parts:
+A static web dashboard showing download statistics for Python backports packages
+on Ubuntu, sourced from the Launchpad API. It has four parts:
 
 1. **Collector** (`scripts/collect.py`) — a Python script that queries Launchpad
    for download counts and writes `data/downloads.{csv,json}` + `data/last-run.json`.
@@ -24,7 +24,7 @@ Read `README.md` for the full user-facing description before making changes.
 ## Repository layout
 
 ```
-config.json                # PPA + tracked source packages (edit to change scope)
+config.json                # PPA + tracked Python source packages (edit to change scope)
 requirements.txt           # Python deps (launchpadlib only; stdlib otherwise)
 scripts/collect.py         # data collector (the main backend logic)
 scripts/report_manifest.py # indexes reports/ -> reports/index.json (no report maths)

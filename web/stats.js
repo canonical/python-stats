@@ -1,4 +1,4 @@
-/* stats.js - pure statistical helpers for the dotnet-stats dashboard.
+/* stats.js - pure statistical helpers for the python-stats dashboard.
  *
  * All functions are side-effect free and operate on plain arrays/objects so
  * they are easy to reason about and test. Exposed on the global `Stats`
@@ -273,21 +273,34 @@
 
   /** Classify a binary package name into a coarse type. */
   function packageType(name) {
-    if (/^aspnetcore-runtime/.test(name)) return "aspnetcore-runtime";
-    if (/-sdk-/.test(name) || /^dotnet-sdk/.test(name)) return "sdk";
-    if (/-runtime-/.test(name) || /^dotnet-runtime/.test(name)) return "runtime";
-    if (/hostfxr/.test(name)) return "hostfxr";
-    if (/targeting-pack/.test(name)) return "targeting-pack";
-    if (/apphost-pack/.test(name)) return "apphost-pack";
-    if (/^dotnet-host/.test(name)) return "host";
-    if (/^dotnet\d+$/.test(name)) return "meta";
+    if (/^python3\.\d+-dev$/.test(name)) return "dev";
+    if (/^libpython3\.\d+-dev$/.test(name)) return "dev";
+    if (/^python3\.\d+-dbg$/.test(name)) return "debug";
+    if (/^libpython3\.\d+-dbg$/.test(name)) return "debug";
+    if (/^python3\.\d+-examples$/.test(name)) return "examples";
+    if (/^python3\.\d+-doc$/.test(name)) return "docs";
+    if (/^python3\.\d+-testsuite$/.test(name) || /^libpython3\.\d+-testsuite$/.test(name))
+      return "tests";
+    if (/^python3\.\d+-venv$/.test(name)) return "venv";
+    if (/^python3\.\d+-tk$/.test(name)) return "tk";
+    if (/^python3\.\d+-gdbm$/.test(name)) return "gdbm";
+    if (/^python3\.\d+-full$/.test(name)) return "full";
+    if (/^idle-python3\.\d+$/.test(name)) return "idle";
+    if (/^python3\.\d+-minimal$/.test(name)) return "minimal";
+    if (/^python3\.\d+-nopie$/.test(name)) return "nopie";
+    if (/^libpython3\.\d+-stdlib$/.test(name)) return "stdlib";
+    if (/^libpython3\.\d+$/.test(name)) return "runtime";
+    if (/^python3\.\d+$/.test(name)) return "runtime";
+    if (/^python3-setuptools/.test(name) || /^python3-pkg-resources/.test(name))
+      return "setuptools";
+    if (/^python-setuptools/.test(name)) return "setuptools";
     return "other";
   }
 
-  /** Derive the .NET major version label from a source package name. */
+  /** Derive the Python version label from a source package name. */
   function majorVersion(sourcePackage) {
-    const m = /(\d+)/.exec(sourcePackage || "");
-    return m ? "dotnet" + m[1] : sourcePackage || "unknown";
+    const m = /python3\.(\d+)/.exec(sourcePackage || "");
+    return m ? "Python 3." + m[1] : sourcePackage || "unknown";
   }
 
   global.Stats = {

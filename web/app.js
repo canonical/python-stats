@@ -1,4 +1,4 @@
-/* app.js - dashboard controller for dotnet-stats.
+/* app.js - dashboard controller for python-stats.
  *
  * Loads data/downloads.json, wires up the Vanilla Framework layout (side
  * navigation, filters), and renders each view with Plotly.
@@ -269,7 +269,7 @@
         )
       );
     });
-    cards.push(statCard("Tracked binaries", binaries.length, versions.size + " .NET versions"));
+    cards.push(statCard("Tracked binaries", binaries.length, versions.size + " Python versions"));
 
     var grid = el("div", "row stat-cards");
     cards.forEach(function (card) { appendCard(grid, card); });
@@ -1063,9 +1063,9 @@
     var cover = el("header", "u-fixed-width report-cover");
     cover.appendChild(el("p", "report-cover__eyebrow", "Executive report"));
     cover.appendChild(el("h2", "p-heading--2 u-no-margin--bottom",
-      ".NET on Ubuntu \u2014 " + facts.monthLabel));
+      "Python backports on Ubuntu \u2014 " + facts.monthLabel));
     cover.appendChild(el("p", "u-text--muted u-no-margin--bottom",
-      "Package download statistics for the dotnet/backports PPA on Launchpad."));
+      "Package download statistics for the canonical-python-maintainers/python-backports PPA on Launchpad."));
 
     var meta = el("dl", "report-meta");
     var scope = facts.scope;
@@ -1155,7 +1155,7 @@
       appendCard(grid, statCard("Newest version share",
         ns.newestSharePct == null ? "n/a" : ns.newestSharePct.toFixed(1) + "%",
         (ns.newestVersion || "n/a") + " \u00b7 " + deltaHtml(ns.newestShareDeltaPp, fmtPp)));
-      appendCard(grid, statCard("SDK per runtime download",
+      appendCard(grid, statCard("Dev per runtime download",
         facts.devIntent.ratioNow == null ? "n/a" : facts.devIntent.ratioNow.toFixed(2),
         "developer-intent proxy \u00b7 " + deltaHtml(facts.devIntent.ratioDeltaPct)));
       appendCard(grid, statCard("Lifetime to month end", t.cumulativeToEnd,
@@ -1272,7 +1272,7 @@
 
   function renderReportComposition(root, facts, plots) {
     var section = reportSection(root, "Composition & adoption",
-      "Which .NET releases, Ubuntu series and architectures the downloads came " +
+      "Which Python releases, Ubuntu series and architectures the downloads came " +
       "from, and how the mix moved.");
 
     // Version mix over the window (100% stacked).
@@ -1291,7 +1291,7 @@
     });
     plots.push(reportPlot(section, "rep-chart-versionmix",
       { height: 300, printHeight: 240 }, traces, {
-      title: "Share of downloads by .NET version",
+      title: "Share of downloads by Python version",
       xaxis: { type: "category", tickangle: -45 },
       yaxis: { title: "Share", ticksuffix: "%", range: [0, 100] },
       margin: { l: 60, r: 45, t: 30, b: 70 },
@@ -1354,21 +1354,21 @@
         .map(platformRow).join("")
     );
 
-    // Developer intent: SDK versus runtime-only volume, and the ratio.
+    // Developer intent: dev versus runtime-only volume, and the ratio.
     var di = facts.devIntent;
     plots.push(reportPlot(section, "rep-chart-devintent",
       { height: 300, printHeight: 240 },
       [
-        { x: di.months.map(shortMonth), y: di.sdkTotals, name: "SDK", type: "bar",
+        { x: di.months.map(shortMonth), y: di.devTotals, name: "Dev packages", type: "bar",
           marker: { color: UBUNTU.orange } },
         { x: di.months.map(shortMonth), y: di.runtimeTotals, name: "Runtime only",
           type: "bar", marker: { color: UBUNTU.blue } },
-        { x: di.months.map(shortMonth), y: di.ratio, name: "SDK per runtime",
+        { x: di.months.map(shortMonth), y: di.ratio, name: "Dev per runtime",
           type: "scatter", mode: "lines+markers", yaxis: "y2",
           line: { color: UBUNTU.purple, width: 2 } },
       ],
       {
-        title: "Developer intent: SDK versus runtime-only downloads",
+        title: "Developer intent: dev versus runtime-only downloads",
         xaxis: { type: "category", tickangle: -45 },
         yaxis: { title: "Downloads" },
         yaxis2: { title: "Ratio", overlaying: "y", side: "right", rangemode: "tozero" },
@@ -1389,7 +1389,7 @@
           "<td data-heading='MoM' class='u-align--right'>" + deltaHtml(r.momPct) +
           "</td></tr>";
       }).join(""),
-      "SDK downloads indicate development and build environments; runtime-only " +
+      "Dev package downloads indicate development and build environments; runtime-only " +
       "downloads indicate deployment targets. Neither is a count of people."
     );
   }
@@ -1567,7 +1567,7 @@
       "Full breakdowns for the reported month.", "report-page--appendix");
 
     [
-      ["By .NET version", facts.versions],
+      ["By Python version", facts.versions],
       ["By Ubuntu series", facts.series],
       ["By architecture", facts.arch],
       ["By package type", facts.types],
@@ -1594,15 +1594,22 @@
     reportTable(section, "Package type glossary",
       "<th>Type</th><th>Meaning</th>",
       [
-        ["sdk", "Full .NET SDK: compilers and build tooling. Indicates development or build environments."],
-        ["runtime", "Base .NET runtime required to execute applications."],
-        ["aspnetcore-runtime", "ASP.NET Core runtime for web workloads."],
-        ["targeting-pack", "Reference assemblies used when building against a specific version."],
-        ["apphost-pack", "Native application host used to produce executables."],
-        ["host", "dotnet host executable and shared components."],
-        ["hostfxr", "Host resolver library selecting the runtime version."],
-        ["meta", "Version metapackage pulling in a default set."],
-        ["other", "Anything not matched above, including templates and source-built artifacts."],
+        ["runtime", "The main Python interpreter and core runtime libraries."],
+        ["minimal", "Minimal Python installation packages."],
+        ["stdlib", "Standard library packages."],
+        ["dev", "Header files and static libraries for building C extensions."],
+        ["debug", "Debug builds of the interpreter and libraries."],
+        ["venv", "Virtual environment support package."],
+        ["full", "Metapackage installing a full Python environment."],
+        ["idle", "Python's integrated development environment."],
+        ["examples", "Example scripts and sample code."],
+        ["docs", "Documentation packages."],
+        ["tests", "Regression test suites."],
+        ["tk", "Tkinter GUI support."],
+        ["gdbm", "GNU dbm database support."],
+        ["nopie", "Non-PIE build of the interpreter."],
+        ["setuptools", "Python packaging tools from the setuptools source package."],
+        ["other", "Anything not matched above."],
       ].map(function (r) {
         return "<tr><td data-heading='Type'>" + r[0] + "</td><td data-heading='Meaning'>" +
           r[1] + "</td></tr>";

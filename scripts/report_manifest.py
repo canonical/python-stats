@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the manifest of archived monthly reports.
+"""Build the manifest of archived monthly reports for Python backports.
 
 The report's arithmetic lives in web/report.js and nowhere else: the archived
 PDF is that view printed by a headless browser. This script deliberately does

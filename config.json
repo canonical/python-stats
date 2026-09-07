@@ -1,11 +1,10 @@
 {
-  "team": "dotnet",
-  "ppa": "backports",
+  "team": "canonical-python-maintainers",
+  "ppa": "python-backports",
   "source_packages": [
-    "dotnet6",
-    "dotnet7",
-    "dotnet8",
-    "dotnet9",
-    "dotnet10"
+    "python3.11",
+    "python3.12",
+    "python3.13",
+    "python3.14"
   ]
 }

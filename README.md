@@ -1,11 +1,12 @@
-# dotnet-stats
+# python-stats
 
-Download statistics for .NET packages on Ubuntu, gathered from
+Download statistics for Python backports packages on Ubuntu, gathered from
 [Launchpad](https://launchpad.net) and presented as a static dashboard built
 with [Vanilla Framework](https://vanillaframework.io) and
 [Plotly.js](https://plotly.com/javascript/).
 
-Data is collected from the **dotnet backports PPA** (`dotnet/backports`).
+Data is collected from the **Python backports PPA**
+(`canonical-python-maintainers/python-backports`).
 
 > **Note:** The primary Ubuntu archive is *not* collected. Launchpad only tracks
 > per-package download counts for PPAs; the primary archive is distributed via
@@ -13,7 +14,7 @@ Data is collected from the **dotnet backports PPA** (`dotnet/backports`).
 > dashboard keeps an "origin" dimension (currently just Backports PPA) so another
 > source can be added later without a data migration.
 
-You can filter by origin, pocket, .NET version and package type.
+You can filter by origin, pocket, Python version and package type.
 
 ## Repository layout
 
@@ -49,9 +50,9 @@ Edit `config.json` to change what is tracked:
 
 ```json
 {
-  "team": "dotnet",
-  "ppa": "backports",
-  "source_packages": ["dotnet6", "dotnet7", "dotnet8", "dotnet9", "dotnet10"]
+  "team": "canonical-python-maintainers",
+  "ppa": "python-backports",
+  "source_packages": ["python3.11", "python3.12", "python3.13", "python3.14"]
 }
 ```
 
@@ -152,7 +153,7 @@ GitHub Actions**.
 ## Monthly executive report
 
 A per-month report aimed at readers who want the trend rather than the
-dashboard: headline volume, which .NET releases and Ubuntu series the downloads
+dashboard: headline volume, which Python releases and Ubuntu series the downloads
 came from, where the trend is heading, and what needs a human explanation.
 
 Three ways to get one:
@@ -168,16 +169,16 @@ Three ways to get one:
 
 | Section | Contents |
 |---------|----------|
-| At a glance | Total downloads, average/day, month-on-month and year-on-year change, peak day, leading and newest .NET version, SDK-per-runtime ratio, lifetime total. Monthly totals for the last 13 months, and the daily shape of the month against the previous one. |
-| Composition & adoption | Share of downloads by .NET version over 13 months, by Ubuntu series and by architecture (each against the previous month), the SDK versus runtime-only split, and the top ten packages. |
+| At a glance | Total downloads, average/day, month-on-month and year-on-year change, peak day, leading and newest Python version, dev-per-runtime ratio, lifetime total. Monthly totals for the last 13 months, and the daily shape of the month against the previous one. |
+| Composition & adoption | Share of downloads by Python version over 13 months, by Ubuntu series and by architecture (each against the previous month), the dev versus runtime-only split, and the top ten packages. |
 | Trajectory & watch items | Cumulative projection into the next month, per-version momentum (7-day, 30-day, trend slope, half-life), days more than 2σ above the month's mean, and a data-coverage table. |
 | Methodology & limitations | What the numbers are and are not. Always included. |
 | Appendix (optional) | Full breakdowns per dimension, a package-type glossary and the full monthly history. |
 
 Four indicators are given consistent prominence because they speak to developer
-adoption rather than raw volume: **SDK download trend** (development and build
-environments rather than deployment targets), **newest-version adoption speed**,
-**arm64 share**, and **LTS series share**.
+adoption rather than raw volume: **dev package download trend** (development and
+build environments rather than deployment targets), **newest-version adoption
+speed**, **arm64 share**, and **LTS series share**.
 
 The written *Key findings* are generated from fixed, threshold-driven rules over
 the computed figures — not an LLM — so every sentence traces back to a number in
@@ -189,7 +190,7 @@ The report says this itself, but it bears repeating:
 
 - Figures are **PPA download counts only**. The primary Ubuntu archive publishes
   no download telemetry, so the report is a *directional indicator*, not total
-  .NET usage on Ubuntu.
+  Python usage on Ubuntu.
 - **Downloads are not users.** CI/CD, container builds, mirrors and repeated
   installs all inflate counts.
 - There is **no data for any other language**, so the report makes no
@@ -231,7 +232,7 @@ of being published half-empty.
 - **Time series** — daily downloads with 7/30-day moving averages and cumulative.
 - **Calendar** — GitHub-style heatmap of daily download intensity with a year/month selector, surfacing weekday/seasonal patterns and the busiest day of the week.
 - **Trends** — week-over-week / month-over-month growth and regression slope.
-- **Version share** — stacked share of dotnet6/7/8/9/10 over time.
+- **Version share** — stacked share of Python 3.11/3.12/3.13/3.14 over time.
 - **Breakdowns** — by origin, series, architecture, package type and pocket.
 - **Peaks & anomalies** — top peak days and statistical outliers (> mean + 2σ).
 - **Lifecycle** — adoption/decline curves and half-life estimates.
