@@ -127,12 +127,15 @@ backports-ppa,python3.14,libpython3.14-dev 3.14.6-1ubuntu1~24.04.1~ppa2 in noble
 backports-ppa,python3.14,libpython3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-01,3
 backports-ppa,python3.14,libpython3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-02,4
 backports-ppa,python3.14,libpython3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-03,3
+backports-ppa,python3.14,libpython3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-07,1
 backports-ppa,python3.14,libpython3.14-stdlib 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14-stdlib,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-01,3
 backports-ppa,python3.14,libpython3.14-stdlib 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14-stdlib,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-02,4
 backports-ppa,python3.14,libpython3.14-stdlib 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14-stdlib,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-03,2
+backports-ppa,python3.14,libpython3.14-stdlib 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14-stdlib,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-07,1
 backports-ppa,python3.14,python3.14 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-01,3
 backports-ppa,python3.14,python3.14 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-02,4
 backports-ppa,python3.14,python3.14 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-03,2
+backports-ppa,python3.14,python3.14 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-07,1
 backports-ppa,python3.14,python3.14-dev 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-dev,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-01,3
 backports-ppa,python3.14,python3.14-dev 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-dev,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-02,1
 backports-ppa,python3.14,python3.14-dev 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-dev,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-03,1
@@ -146,6 +149,7 @@ backports-ppa,python3.14,python3.14-doc 3.14.6-1ubuntu1~24.04.1~ppa2 in noble s3
 backports-ppa,python3.14,python3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-01,3
 backports-ppa,python3.14,python3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-02,4
 backports-ppa,python3.14,python3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-03,3
+backports-ppa,python3.14,python3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-07,1
 backports-ppa,python3.14,python3.14-venv 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-venv,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-01,3
 backports-ppa,python3.14,python3.14-venv 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-venv,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-02,2
 backports-ppa,python3.14,python3.14-venv 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-venv,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-09-03,1
