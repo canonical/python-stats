@@ -1363,6 +1363,7 @@ backports-ppa,python3.12,libpython3.12-dev 3.12.3-1ubuntu0.10~22.04.1~ppa1 in ja
 backports-ppa,python3.12,libpython3.12-dev 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,libpython3.12-dev,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-16,4
 backports-ppa,python3.12,libpython3.12-dev 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,libpython3.12-dev,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-17,6
 backports-ppa,python3.12,libpython3.12-dev 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,libpython3.12-dev,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-18,3
+backports-ppa,python3.12,libpython3.12-dev 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,libpython3.12-dev,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-19,4
 backports-ppa,python3.12,libpython3.12-dev 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy arm64,libpython3.12-dev,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,arm64,Release,Published,False,2025-12-16,2
 backports-ppa,python3.12,libpython3.12-dev 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy arm64,libpython3.12-dev,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,arm64,Release,Published,False,2026-04-21,2
 backports-ppa,python3.12,libpython3.12-dev 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy arm64,libpython3.12-dev,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,arm64,Release,Published,False,2026-08-12,1
@@ -1546,6 +1547,7 @@ backports-ppa,python3.12,libpython3.12-dev 3.12.3-1ubuntu0.10~26.04.1~ppa2 in re
 backports-ppa,python3.12,libpython3.12-dev 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,libpython3.12-dev,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-16,4
 backports-ppa,python3.12,libpython3.12-dev 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,libpython3.12-dev,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-17,15
 backports-ppa,python3.12,libpython3.12-dev 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,libpython3.12-dev,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-18,3
+backports-ppa,python3.12,libpython3.12-dev 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,libpython3.12-dev,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-19,8
 backports-ppa,python3.12,libpython3.12-dev 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,libpython3.12-dev,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-04-21,1
 backports-ppa,python3.12,libpython3.12-dev 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,libpython3.12-dev,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-04-28,1
 backports-ppa,python3.12,libpython3.12-dev 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,libpython3.12-dev,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-07-25,1
@@ -1714,6 +1716,7 @@ backports-ppa,python3.12,libpython3.12-minimal 3.12.3-1ubuntu0.10~22.04.1~ppa1 i
 backports-ppa,python3.12,libpython3.12-minimal 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,libpython3.12-minimal,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-16,8
 backports-ppa,python3.12,libpython3.12-minimal 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,libpython3.12-minimal,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-17,9
 backports-ppa,python3.12,libpython3.12-minimal 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,libpython3.12-minimal,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-18,3
+backports-ppa,python3.12,libpython3.12-minimal 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,libpython3.12-minimal,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-19,7
 backports-ppa,python3.12,libpython3.12-minimal 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy arm64,libpython3.12-minimal,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,arm64,Release,Published,False,2025-12-16,2
 backports-ppa,python3.12,libpython3.12-minimal 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy arm64,libpython3.12-minimal,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,arm64,Release,Published,False,2026-04-20,2
 backports-ppa,python3.12,libpython3.12-minimal 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy arm64,libpython3.12-minimal,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,arm64,Release,Published,False,2026-08-10,1
@@ -1909,6 +1912,7 @@ backports-ppa,python3.12,libpython3.12-minimal 3.12.3-1ubuntu0.10~26.04.1~ppa2 i
 backports-ppa,python3.12,libpython3.12-minimal 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,libpython3.12-minimal,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-16,6
 backports-ppa,python3.12,libpython3.12-minimal 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,libpython3.12-minimal,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-17,13
 backports-ppa,python3.12,libpython3.12-minimal 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,libpython3.12-minimal,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-18,1
+backports-ppa,python3.12,libpython3.12-minimal 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,libpython3.12-minimal,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-19,10
 backports-ppa,python3.12,libpython3.12-minimal 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,libpython3.12-minimal,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-04-19,1
 backports-ppa,python3.12,libpython3.12-minimal 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,libpython3.12-minimal,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-04-28,1
 backports-ppa,python3.12,libpython3.12-minimal 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,libpython3.12-minimal,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-07-13,1
@@ -2086,6 +2090,7 @@ backports-ppa,python3.12,libpython3.12-stdlib 3.12.3-1ubuntu0.10~22.04.1~ppa1 in
 backports-ppa,python3.12,libpython3.12-stdlib 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,libpython3.12-stdlib,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-16,8
 backports-ppa,python3.12,libpython3.12-stdlib 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,libpython3.12-stdlib,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-17,9
 backports-ppa,python3.12,libpython3.12-stdlib 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,libpython3.12-stdlib,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-18,3
+backports-ppa,python3.12,libpython3.12-stdlib 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,libpython3.12-stdlib,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-19,7
 backports-ppa,python3.12,libpython3.12-stdlib 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy arm64,libpython3.12-stdlib,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,arm64,Release,Published,False,2025-12-16,2
 backports-ppa,python3.12,libpython3.12-stdlib 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy arm64,libpython3.12-stdlib,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,arm64,Release,Published,False,2026-04-20,2
 backports-ppa,python3.12,libpython3.12-stdlib 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy arm64,libpython3.12-stdlib,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,arm64,Release,Published,False,2026-04-21,2
@@ -2282,6 +2287,7 @@ backports-ppa,python3.12,libpython3.12-stdlib 3.12.3-1ubuntu0.10~26.04.1~ppa2 in
 backports-ppa,python3.12,libpython3.12-stdlib 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,libpython3.12-stdlib,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-16,6
 backports-ppa,python3.12,libpython3.12-stdlib 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,libpython3.12-stdlib,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-17,14
 backports-ppa,python3.12,libpython3.12-stdlib 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,libpython3.12-stdlib,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-18,1
+backports-ppa,python3.12,libpython3.12-stdlib 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,libpython3.12-stdlib,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-19,10
 backports-ppa,python3.12,libpython3.12-stdlib 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,libpython3.12-stdlib,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-04-20,2
 backports-ppa,python3.12,libpython3.12-stdlib 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,libpython3.12-stdlib,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-04-28,1
 backports-ppa,python3.12,libpython3.12-stdlib 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,libpython3.12-stdlib,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-07-13,1
@@ -2513,6 +2519,7 @@ backports-ppa,python3.12,libpython3.12t64 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jam
 backports-ppa,python3.12,libpython3.12t64 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,libpython3.12t64,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-16,4
 backports-ppa,python3.12,libpython3.12t64 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,libpython3.12t64,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-17,5
 backports-ppa,python3.12,libpython3.12t64 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,libpython3.12t64,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-18,4
+backports-ppa,python3.12,libpython3.12t64 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,libpython3.12t64,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-19,4
 backports-ppa,python3.12,libpython3.12t64 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy arm64,libpython3.12t64,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,arm64,Release,Published,False,2025-12-16,2
 backports-ppa,python3.12,libpython3.12t64 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy arm64,libpython3.12t64,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,arm64,Release,Published,False,2026-04-22,3
 backports-ppa,python3.12,libpython3.12t64 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy arm64,libpython3.12t64,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,arm64,Release,Published,False,2026-04-23,3
@@ -2697,6 +2704,7 @@ backports-ppa,python3.12,libpython3.12t64 3.12.3-1ubuntu0.10~26.04.1~ppa2 in res
 backports-ppa,python3.12,libpython3.12t64 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,libpython3.12t64,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-16,4
 backports-ppa,python3.12,libpython3.12t64 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,libpython3.12t64,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-17,13
 backports-ppa,python3.12,libpython3.12t64 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,libpython3.12t64,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-18,1
+backports-ppa,python3.12,libpython3.12t64 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,libpython3.12t64,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-19,7
 backports-ppa,python3.12,libpython3.12t64 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,libpython3.12t64,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-04-20,6
 backports-ppa,python3.12,libpython3.12t64 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,libpython3.12t64,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-04-28,1
 backports-ppa,python3.12,libpython3.12t64 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,libpython3.12t64,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-07-25,1
@@ -2915,6 +2923,7 @@ backports-ppa,python3.12,python3.12 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd
 backports-ppa,python3.12,python3.12 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,python3.12,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-16,7
 backports-ppa,python3.12,python3.12 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,python3.12,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-17,9
 backports-ppa,python3.12,python3.12 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,python3.12,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-18,3
+backports-ppa,python3.12,python3.12 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,python3.12,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-19,7
 backports-ppa,python3.12,python3.12 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy arm64,python3.12,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,arm64,Release,Published,False,2025-12-16,2
 backports-ppa,python3.12,python3.12 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy arm64,python3.12,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,arm64,Release,Published,False,2026-04-20,1
 backports-ppa,python3.12,python3.12 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy arm64,python3.12,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,arm64,Release,Published,False,2026-08-10,1
@@ -3108,6 +3117,7 @@ backports-ppa,python3.12,python3.12 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute 
 backports-ppa,python3.12,python3.12 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,python3.12,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-16,6
 backports-ppa,python3.12,python3.12 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,python3.12,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-17,13
 backports-ppa,python3.12,python3.12 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,python3.12,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-18,1
+backports-ppa,python3.12,python3.12 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,python3.12,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-19,10
 backports-ppa,python3.12,python3.12 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,python3.12,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-04-20,1
 backports-ppa,python3.12,python3.12 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,python3.12,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-04-28,1
 backports-ppa,python3.12,python3.12 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,python3.12,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-07-13,1
@@ -3323,6 +3333,7 @@ backports-ppa,python3.12,python3.12-dev 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy
 backports-ppa,python3.12,python3.12-dev 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,python3.12-dev,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-16,4
 backports-ppa,python3.12,python3.12-dev 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,python3.12-dev,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-17,6
 backports-ppa,python3.12,python3.12-dev 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,python3.12-dev,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-18,3
+backports-ppa,python3.12,python3.12-dev 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,python3.12-dev,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-19,4
 backports-ppa,python3.12,python3.12-dev 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy arm64,python3.12-dev,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,arm64,Release,Published,False,2025-12-16,2
 backports-ppa,python3.12,python3.12-dev 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy arm64,python3.12-dev,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,arm64,Release,Published,False,2026-04-19,1
 backports-ppa,python3.12,python3.12-dev 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy arm64,python3.12-dev,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,arm64,Release,Published,False,2026-04-20,1
@@ -3506,6 +3517,7 @@ backports-ppa,python3.12,python3.12-dev 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resol
 backports-ppa,python3.12,python3.12-dev 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,python3.12-dev,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-16,4
 backports-ppa,python3.12,python3.12-dev 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,python3.12-dev,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-17,8
 backports-ppa,python3.12,python3.12-dev 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,python3.12-dev,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-18,1
+backports-ppa,python3.12,python3.12-dev 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,python3.12-dev,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-19,7
 backports-ppa,python3.12,python3.12-dev 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,python3.12-dev,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-04-21,1
 backports-ppa,python3.12,python3.12-dev 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,python3.12-dev,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-04-28,1
 backports-ppa,python3.12,python3.12-dev 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,python3.12-dev,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-07-25,1
@@ -3865,6 +3877,7 @@ backports-ppa,python3.12,python3.12-minimal 3.12.3-1ubuntu0.10~22.04.1~ppa1 in j
 backports-ppa,python3.12,python3.12-minimal 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,python3.12-minimal,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-16,8
 backports-ppa,python3.12,python3.12-minimal 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,python3.12-minimal,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-17,9
 backports-ppa,python3.12,python3.12-minimal 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,python3.12-minimal,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-18,3
+backports-ppa,python3.12,python3.12-minimal 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy amd64,python3.12-minimal,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,amd64,Release,Published,False,2026-11-19,7
 backports-ppa,python3.12,python3.12-minimal 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy arm64,python3.12-minimal,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,arm64,Release,Published,False,2025-12-16,2
 backports-ppa,python3.12,python3.12-minimal 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy arm64,python3.12-minimal,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,arm64,Release,Published,False,2026-04-21,1
 backports-ppa,python3.12,python3.12-minimal 3.12.3-1ubuntu0.10~22.04.1~ppa1 in jammy arm64,python3.12-minimal,3.12.3-1ubuntu0.10~22.04.1~ppa1,jammy,arm64,Release,Published,False,2026-08-10,1
@@ -4061,6 +4074,7 @@ backports-ppa,python3.12,python3.12-minimal 3.12.3-1ubuntu0.10~26.04.1~ppa2 in r
 backports-ppa,python3.12,python3.12-minimal 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,python3.12-minimal,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-16,6
 backports-ppa,python3.12,python3.12-minimal 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,python3.12-minimal,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-17,14
 backports-ppa,python3.12,python3.12-minimal 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,python3.12-minimal,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-18,1
+backports-ppa,python3.12,python3.12-minimal 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,python3.12-minimal,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-19,10
 backports-ppa,python3.12,python3.12-minimal 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,python3.12-minimal,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-04-20,2
 backports-ppa,python3.12,python3.12-minimal 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,python3.12-minimal,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-04-28,1
 backports-ppa,python3.12,python3.12-minimal 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,python3.12-minimal,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-07-13,1
@@ -4330,6 +4344,7 @@ backports-ppa,python3.12,python3.12-venv 3.12.3-1ubuntu0.10~26.04.1~ppa2 in reso
 backports-ppa,python3.12,python3.12-venv 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,python3.12-venv,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-13,2
 backports-ppa,python3.12,python3.12-venv 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,python3.12-venv,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-15,1
 backports-ppa,python3.12,python3.12-venv 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,python3.12-venv,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-17,3
+backports-ppa,python3.12,python3.12-venv 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64,python3.12-venv,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64,Release,Published,False,2026-11-19,1
 backports-ppa,python3.12,python3.12-venv 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,python3.12-venv,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-04-19,1
 backports-ppa,python3.12,python3.12-venv 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,python3.12-venv,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-04-28,1
 backports-ppa,python3.12,python3.12-venv 3.12.3-1ubuntu0.10~26.04.1~ppa2 in resolute amd64v3,python3.12-venv,3.12.3-1ubuntu0.10~26.04.1~ppa2,resolute,amd64v3,Release,Published,False,2026-07-13,1
@@ -4701,6 +4716,7 @@ backports-ppa,python3.13,libpython3.13 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolut
 backports-ppa,python3.13,libpython3.13 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,libpython3.13,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-10-27,1
 backports-ppa,python3.13,libpython3.13 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,libpython3.13,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-07,1
 backports-ppa,python3.13,libpython3.13 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,libpython3.13,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-15,1
+backports-ppa,python3.13,libpython3.13 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,libpython3.13,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-19,5
 backports-ppa,python3.13,libpython3.13 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64v3,libpython3.13,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64v3,Release,Published,False,2026-11-07,1
 backports-ppa,python3.13,libpython3.13 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute arm64,libpython3.13,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,arm64,Release,Published,False,2026-11-07,1
 backports-ppa,python3.13,libpython3.13 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute armhf,libpython3.13,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,armhf,Release,Published,False,2026-11-07,1
@@ -4871,6 +4887,7 @@ backports-ppa,python3.13,libpython3.13-dev 3.13.3-1ubuntu0.4~26.04.1~ppa1 in res
 backports-ppa,python3.13,libpython3.13-dev 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,libpython3.13-dev,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-10-27,1
 backports-ppa,python3.13,libpython3.13-dev 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,libpython3.13-dev,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-07,1
 backports-ppa,python3.13,libpython3.13-dev 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,libpython3.13-dev,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-15,1
+backports-ppa,python3.13,libpython3.13-dev 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,libpython3.13-dev,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-19,5
 backports-ppa,python3.13,libpython3.13-dev 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64v3,libpython3.13-dev,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64v3,Release,Published,False,2026-11-07,1
 backports-ppa,python3.13,libpython3.13-dev 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute arm64,libpython3.13-dev,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,arm64,Release,Published,False,2026-11-07,1
 backports-ppa,python3.13,libpython3.13-dev 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute armhf,libpython3.13-dev,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,armhf,Release,Published,False,2026-11-07,1
@@ -5174,6 +5191,7 @@ backports-ppa,python3.13,libpython3.13-minimal 3.13.3-1ubuntu0.4~26.04.1~ppa1 in
 backports-ppa,python3.13,libpython3.13-minimal 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,libpython3.13-minimal,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-07,2
 backports-ppa,python3.13,libpython3.13-minimal 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,libpython3.13-minimal,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-15,1
 backports-ppa,python3.13,libpython3.13-minimal 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,libpython3.13-minimal,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-17,1
+backports-ppa,python3.13,libpython3.13-minimal 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,libpython3.13-minimal,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-19,6
 backports-ppa,python3.13,libpython3.13-minimal 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64v3,libpython3.13-minimal,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64v3,Release,Published,False,2026-11-07,1
 backports-ppa,python3.13,libpython3.13-minimal 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute arm64,libpython3.13-minimal,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,arm64,Release,Published,False,2026-11-07,1
 backports-ppa,python3.13,libpython3.13-minimal 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute arm64,libpython3.13-minimal,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,arm64,Release,Published,False,2026-11-08,1
@@ -5475,6 +5493,7 @@ backports-ppa,python3.13,libpython3.13-stdlib 3.13.3-1ubuntu0.4~26.04.1~ppa1 in 
 backports-ppa,python3.13,libpython3.13-stdlib 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,libpython3.13-stdlib,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-07,2
 backports-ppa,python3.13,libpython3.13-stdlib 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,libpython3.13-stdlib,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-15,1
 backports-ppa,python3.13,libpython3.13-stdlib 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,libpython3.13-stdlib,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-17,1
+backports-ppa,python3.13,libpython3.13-stdlib 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,libpython3.13-stdlib,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-19,6
 backports-ppa,python3.13,libpython3.13-stdlib 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64v3,libpython3.13-stdlib,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64v3,Release,Published,False,2026-11-07,1
 backports-ppa,python3.13,libpython3.13-stdlib 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute arm64,libpython3.13-stdlib,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,arm64,Release,Published,False,2026-11-07,1
 backports-ppa,python3.13,libpython3.13-stdlib 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute arm64,libpython3.13-stdlib,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,arm64,Release,Published,False,2026-11-08,1
@@ -5976,6 +5995,7 @@ backports-ppa,python3.13,python3.13 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute a
 backports-ppa,python3.13,python3.13 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,python3.13,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-07,2
 backports-ppa,python3.13,python3.13 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,python3.13,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-15,1
 backports-ppa,python3.13,python3.13 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,python3.13,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-17,1
+backports-ppa,python3.13,python3.13 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,python3.13,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-19,6
 backports-ppa,python3.13,python3.13 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64v3,python3.13,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64v3,Release,Published,False,2026-11-07,1
 backports-ppa,python3.13,python3.13 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute arm64,python3.13,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,arm64,Release,Published,False,2026-11-07,1
 backports-ppa,python3.13,python3.13 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute arm64,python3.13,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,arm64,Release,Published,False,2026-11-08,1
@@ -6146,6 +6166,7 @@ backports-ppa,python3.13,python3.13-dev 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolu
 backports-ppa,python3.13,python3.13-dev 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,python3.13-dev,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-10-27,1
 backports-ppa,python3.13,python3.13-dev 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,python3.13-dev,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-07,1
 backports-ppa,python3.13,python3.13-dev 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,python3.13-dev,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-15,1
+backports-ppa,python3.13,python3.13-dev 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,python3.13-dev,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-19,5
 backports-ppa,python3.13,python3.13-dev 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64v3,python3.13-dev,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64v3,Release,Published,False,2026-11-07,1
 backports-ppa,python3.13,python3.13-dev 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute arm64,python3.13-dev,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,arm64,Release,Published,False,2026-11-07,1
 backports-ppa,python3.13,python3.13-dev 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute armhf,python3.13-dev,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,armhf,Release,Published,False,2026-11-07,1
@@ -6960,6 +6981,7 @@ backports-ppa,python3.13,python3.13-minimal 3.13.3-1ubuntu0.4~26.04.1~ppa1 in re
 backports-ppa,python3.13,python3.13-minimal 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,python3.13-minimal,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-07,2
 backports-ppa,python3.13,python3.13-minimal 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,python3.13-minimal,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-15,1
 backports-ppa,python3.13,python3.13-minimal 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,python3.13-minimal,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-17,1
+backports-ppa,python3.13,python3.13-minimal 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,python3.13-minimal,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-19,7
 backports-ppa,python3.13,python3.13-minimal 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64v3,python3.13-minimal,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64v3,Release,Published,False,2026-11-07,1
 backports-ppa,python3.13,python3.13-minimal 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute arm64,python3.13-minimal,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,arm64,Release,Published,False,2026-11-07,1
 backports-ppa,python3.13,python3.13-minimal 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute arm64,python3.13-minimal,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,arm64,Release,Published,False,2026-11-08,1
@@ -7307,6 +7329,7 @@ backports-ppa,python3.13,python3.13-venv 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resol
 backports-ppa,python3.13,python3.13-venv 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,python3.13-venv,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-10-29,1
 backports-ppa,python3.13,python3.13-venv 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,python3.13-venv,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-07,2
 backports-ppa,python3.13,python3.13-venv 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,python3.13-venv,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-15,1
+backports-ppa,python3.13,python3.13-venv 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64,python3.13-venv,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64,Release,Published,False,2026-11-19,6
 backports-ppa,python3.13,python3.13-venv 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute amd64v3,python3.13-venv,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,amd64v3,Release,Published,False,2026-11-07,1
 backports-ppa,python3.13,python3.13-venv 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute arm64,python3.13-venv,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,arm64,Release,Published,False,2026-11-07,1
 backports-ppa,python3.13,python3.13-venv 3.13.3-1ubuntu0.4~26.04.1~ppa1 in resolute arm64,python3.13-venv,3.13.3-1ubuntu0.4~26.04.1~ppa1,resolute,arm64,Release,Published,False,2026-11-08,1
@@ -7512,6 +7535,7 @@ backports-ppa,python3.14,libpython3.14 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd
 backports-ppa,python3.14,libpython3.14 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-16,1
 backports-ppa,python3.14,libpython3.14 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-17,1
 backports-ppa,python3.14,libpython3.14 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-18,2
+backports-ppa,python3.14,libpython3.14 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-19,1
 backports-ppa,python3.14,libpython3.14 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,libpython3.14,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-09-08,1
 backports-ppa,python3.14,libpython3.14 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,libpython3.14,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-10-10,1
 backports-ppa,python3.14,libpython3.14 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,libpython3.14,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-10-11,1
@@ -7678,6 +7702,7 @@ backports-ppa,python3.14,libpython3.14-dev 3.14.6-1ubuntu1~24.04.1~ppa2 in noble
 backports-ppa,python3.14,libpython3.14-dev 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14-dev,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-16,1
 backports-ppa,python3.14,libpython3.14-dev 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14-dev,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-17,1
 backports-ppa,python3.14,libpython3.14-dev 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14-dev,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-18,2
+backports-ppa,python3.14,libpython3.14-dev 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14-dev,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-19,1
 backports-ppa,python3.14,libpython3.14-dev 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,libpython3.14-dev,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-09-08,1
 backports-ppa,python3.14,libpython3.14-dev 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,libpython3.14-dev,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-10-10,1
 backports-ppa,python3.14,libpython3.14-dev 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,libpython3.14-dev,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-10-11,1
@@ -7841,6 +7866,7 @@ backports-ppa,python3.14,libpython3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in n
 backports-ppa,python3.14,libpython3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-16,2
 backports-ppa,python3.14,libpython3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-17,1
 backports-ppa,python3.14,libpython3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-18,3
+backports-ppa,python3.14,libpython3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-19,1
 backports-ppa,python3.14,libpython3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,libpython3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-09-08,1
 backports-ppa,python3.14,libpython3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,libpython3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-10-10,1
 backports-ppa,python3.14,libpython3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,libpython3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-10-11,1
@@ -8002,6 +8028,7 @@ backports-ppa,python3.14,libpython3.14-stdlib 3.14.6-1ubuntu1~24.04.1~ppa2 in no
 backports-ppa,python3.14,libpython3.14-stdlib 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14-stdlib,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-16,2
 backports-ppa,python3.14,libpython3.14-stdlib 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14-stdlib,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-17,1
 backports-ppa,python3.14,libpython3.14-stdlib 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14-stdlib,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-18,3
+backports-ppa,python3.14,libpython3.14-stdlib 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,libpython3.14-stdlib,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-19,1
 backports-ppa,python3.14,libpython3.14-stdlib 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,libpython3.14-stdlib,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-09-08,1
 backports-ppa,python3.14,libpython3.14-stdlib 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,libpython3.14-stdlib,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-10-10,1
 backports-ppa,python3.14,libpython3.14-stdlib 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,libpython3.14-stdlib,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-10-11,1
@@ -8256,6 +8283,7 @@ backports-ppa,python3.14,python3.14 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,
 backports-ppa,python3.14,python3.14 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-16,2
 backports-ppa,python3.14,python3.14 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-17,1
 backports-ppa,python3.14,python3.14 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-18,3
+backports-ppa,python3.14,python3.14 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-19,1
 backports-ppa,python3.14,python3.14 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,python3.14,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-09-08,1
 backports-ppa,python3.14,python3.14 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,python3.14,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-10-10,1
 backports-ppa,python3.14,python3.14 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,python3.14,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-10-11,1
@@ -8421,6 +8449,7 @@ backports-ppa,python3.14,python3.14-dev 3.14.6-1ubuntu1~24.04.1~ppa2 in noble am
 backports-ppa,python3.14,python3.14-dev 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-dev,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-16,1
 backports-ppa,python3.14,python3.14-dev 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-dev,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-17,1
 backports-ppa,python3.14,python3.14-dev 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-dev,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-18,2
+backports-ppa,python3.14,python3.14-dev 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-dev,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-19,1
 backports-ppa,python3.14,python3.14-dev 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,python3.14-dev,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-09-08,1
 backports-ppa,python3.14,python3.14-dev 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,python3.14-dev,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-10-10,1
 backports-ppa,python3.14,python3.14-dev 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,python3.14-dev,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-10-11,1
@@ -8850,6 +8879,7 @@ backports-ppa,python3.14,python3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in nobl
 backports-ppa,python3.14,python3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-16,2
 backports-ppa,python3.14,python3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-17,1
 backports-ppa,python3.14,python3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-18,3
+backports-ppa,python3.14,python3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-19,1
 backports-ppa,python3.14,python3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,python3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-09-08,1
 backports-ppa,python3.14,python3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,python3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-10-10,1
 backports-ppa,python3.14,python3.14-minimal 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,python3.14-minimal,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-10-11,1
@@ -9074,6 +9104,7 @@ backports-ppa,python3.14,python3.14-venv 3.14.6-1ubuntu1~24.04.1~ppa2 in noble a
 backports-ppa,python3.14,python3.14-venv 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-venv,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-16,1
 backports-ppa,python3.14,python3.14-venv 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-venv,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-17,1
 backports-ppa,python3.14,python3.14-venv 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-venv,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-18,2
+backports-ppa,python3.14,python3.14-venv 3.14.6-1ubuntu1~24.04.1~ppa2 in noble amd64,python3.14-venv,3.14.6-1ubuntu1~24.04.1~ppa2,noble,amd64,Release,Published,False,2026-11-19,1
 backports-ppa,python3.14,python3.14-venv 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,python3.14-venv,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-09-08,1
 backports-ppa,python3.14,python3.14-venv 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,python3.14-venv,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-10-10,1
 backports-ppa,python3.14,python3.14-venv 3.14.6-1ubuntu1~24.04.1~ppa2 in noble arm64,python3.14-venv,3.14.6-1ubuntu1~24.04.1~ppa2,noble,arm64,Release,Published,False,2026-10-11,1
